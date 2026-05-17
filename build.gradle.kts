@@ -1,6 +1,5 @@
-/**
- * NOTE: This is entirely optional and basics can be done in `settings.gradle.kts`
- */
+group = "eriksk"
+version = "1.0.1"
 
 repositories {
     // Any external repositories besides: MavenLocal, MavenCentral, HytaleMaven, and CurseMaven
@@ -8,4 +7,15 @@ repositories {
 
 dependencies {
     // Any external dependency you also want to include
+}
+
+plugins {
+    `maven-publish`
+}
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+        }
+    }
 }

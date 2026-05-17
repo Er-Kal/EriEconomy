@@ -1,0 +1,9 @@
+Group {
+    LayoutMode: Center;
+
+    Label #BalanceLabel {
+        Style: (FontSize: 24, Alignment: Center);
+        Anchor: (Top: 30, Width: 200, Height:30);
+        Text: "$ 0";
+    }
+}

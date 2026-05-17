@@ -1,20 +1,20 @@
 {
-    "Group": "HytaleModding",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.0",
-    "Description": "Description of your plugin",
+    "Group": "eriksk",
+    "Name": "EriEconomy",
+    "Version": "1.0.1",
+    "Description": "Economy Plugin made by eriksk",
     "Authors": [
         {
-            "Name": "Your Name",
-            "Email": "your.email@example.com",
-            "Url": "https://your-website.com"
+            "Name": "Eriks",
+            "Email": "75757517+Er-Kal@users.noreply.github.com",
+            "Url": "https://eriksk.com"
         }
     ],
-    "Website": "https://your-plugin-website.com",
+    "Website": "https://eriksk.com",
     "DisabledByDefault": false,
-    "IncludesAssetPack": false,
+    "IncludesAssetPack": true,
     "Dependencies": {},
     "OptionalDependencies": {},
     "ServerVersion": "*",
-    "Main": "dev.hytalemodding.ExamplePlugin"
+    "Main": "dev.hytalemodding.EriEconomy"
 }
